@@ -6,5 +6,12 @@
       "secure": true
     }
   },
+  "authors": {
+    "nodejstw": {
+      "password": 123,
+      "name": "Node.js Taiwan",
+      "url": "http://github.com/nodejs-tw"
+    }
+  },
   "mongodb": "mongodb://localhost/nodejs-book-beginner-guide"
 }
