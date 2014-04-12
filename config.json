@@ -1,0 +1,10 @@
+{
+  "session": {
+    "secret": "QQ",
+    "key": "sid",
+    "cookie": {
+      "secure": true
+    }
+  },
+  "mongodb": "mongodb://localhost/nodejs-book-beginner-guide"
+}

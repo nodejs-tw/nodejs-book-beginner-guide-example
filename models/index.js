@@ -1,8 +1,9 @@
 var fs = require('fs');
 var path = require('path');
 var mongoose = require('mongoose');
+var config = require('../config');
 
-mongoose.connect('mongodb://localhost/nodejs-book-beginner-guide');
+mongoose.connect(config.mongodb);
 
 var models = module.exports = {};
 
