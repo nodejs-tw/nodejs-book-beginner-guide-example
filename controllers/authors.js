@@ -17,3 +17,10 @@ authors.login = function (req, res) {
     });
   }
 };
+
+author.logout = function (req, res) {
+  req.session = null;
+  res.send({
+    success: true
+  });
+};
