@@ -2,6 +2,8 @@ var fs = require('fs');
 var path = require('path');
 var mongoose = require('mongoose');
 
+mongoose.connect('mongodb://localhost/nodejs-book-beginner-guide');
+
 var models = module.exports = {};
 
 var o = function (name) {
@@ -10,5 +12,3 @@ var o = function (name) {
   name = name[0].toUpperCase() + name.slice(1);
   models[name] = wrapper(mongoose);
 }
-
-
