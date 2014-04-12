@@ -3,7 +3,7 @@
     "secret": "QQ",
     "key": "sid",
     "cookie": {
-      "secure": true
+      "maxAge": 60000
     }
   },
   "mongodb": "mongodb://localhost/nodejs-book-beginner-guide"
