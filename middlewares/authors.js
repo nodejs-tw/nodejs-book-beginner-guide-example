@@ -12,6 +12,6 @@ module.exports = function (authors) {
 
   function checkAuthorPassword(author, password) {
     author = authors[author];
-    return !!(author && author.password === password);
+    return !!(author && author.password == password);
   }
 };
